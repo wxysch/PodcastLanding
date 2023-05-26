@@ -1,372 +1,319 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Spotify</title>
-    <link rel="stylesheet" type="text/css" href="./index.css">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
-</head>
-<body>
-    <div class="container">
-        <div class="left">
-            <div style="height:20px"></div>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="assets/Home.svg" alt="" class="gray-filtered">
-                            <span>Home</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/Search.svg" alt="" class="gray-filtered">
-                            <span>Search</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/YourLibrary.svg" alt="" class="gray-filtered">
-                            <span>Your Library</span>
-                        </a>
-                    </li>
-                    <div style="height:30px"></div>
-                    <li>
-                        <a href="#">
-                            <img src="assets/CreatePlaylist.svg" alt="" class="gray-filtered">
-                            <span>Create Playlist</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="assets/Like.svg" alt="" class="gray-filtered">
-                            <span>Liked Songs</span>
-                        </a>
-                    </li>
-                </ul>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/icons/all.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="content-wrap">
+        <header class="header">
+          <div class="header__container container">
+            <div class="header__logo">
+              <img
+                src="https://spravlyayus.mave.digital/_nuxt/img/logo.a9ea055.svg"
+                alt=""
+              />
+              <!-- <h2 class="header__logo-title">mave</h2> -->
             </div>
-            <hr width="100%">
-
-            <div style="height: 20px;"></div>
-            <div class="menu playlists">
-                <ul>
-
-                    <li>
-                        <a href="#">
-                            <span>Chill Vibes</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Summer Hits</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Workout Motivation</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Party Time</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Road Trip</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Classical Masterpieces</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Jazz for Relaxation</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Rap and Hip-Hop</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Rock Classics</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Morning Wake Up</span>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <span>Chill Vibes</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Summer Hits</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Workout Motivation</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Party Time</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Road Trip</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Classical Masterpieces</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Jazz for Relaxation</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Rap and Hip-Hop</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Rock Classics</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span>Morning Wake Up</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="current-song-cover">
-                <img src="images/song-cover.jpeg" alt="">
-            </div>
-
-
-        </div>
-        <div class="right">
-            <div class="playlist-header">
-                <div class="playlist-top">
-                    <div class="playlist-arrows">
-                        <div class="arrow-container">
-                            <img src="assets/LeftArrow.svg" alt="">
-                        </div>
-                        <div class="arrow-container">
-                            <img src="assets/RightArrow.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="playlist-top-email">
-                        <div class="arrow-container">
-                            <img src="assets/Profile.svg" alt="">
-                        </div>
-                        <span>servet.gulnaro...</span>
-
-                    </div>
+          </div>
+        </header>
+        <main>
+          <section class="audio">
+            <div class="audio__left">
+              <div class="audio__content">
+                <div class="audio__i">
+                  <img
+                    src="/img/e4f483b4-2ac7-45ba-87fe-aa24533886c1_600.jpg"
+                    alt=""
+                  />
+                  <h3 class="audio__i-title">Я справляюсь</h3>
+                  <p class="audio__i-name">Maulida Imanova</p>
+                  <div class="audio__release">
+                    <p class="audio__release-text">8 выпусков</p>
+                    <p class="audio__release-star">4.9</p>
+                    <span></span>
+                    <p class="audio__release-number">558</p>
+                  </div>
                 </div>
-                <div class="playlist-content">
-                    <div class="playlist-cover">
-                        <img src="images/playlist-cover.png" alt="">
-                    </div>
-                    <div class="playlist-info">
-                        <div class="playlist-public"> PUBLIC PLAYLIST</div>
-                        <div class="playlist-title">Classic Road Trip Songs</div>
-                        <div class="playlist-description">A soundtrack to fuel your good mood while on the road.</div>
-                        <div style="height: 10px;"></div>
-                        <div class="playlist-stats">
-                            <img src="assets/spotify-logo.png" width="24px" height="24px" alt="">
-                            <span> Spotify ·</span>
-                            <span>5,131,321 likes · </span>
-                            <span>100 songs, </span>
-                            <span>6 hr 57 min </span>
-                        </div>
-                    </div>
+                <div class="audio__desc">
+                  <p class="audio__desc-text">
+                    Подкаст девочки в своих 20-х, которая разбирается с жизнью
+                    на ходу, и решила делиться этим опытом. Документируя свой
+                    путь становления в реальном времени
+                  </p>
+                  <p class="audio__desc-personal">Личные дневники</p>
+                  <div class="audio__wrap">
+                    <a href="#">
+                      <img
+                        src="https://spravlyayus.mave.digital/_nuxt/img/apple-podcasts.1dd0e61.svg"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        src="https://spravlyayus.mave.digital/_nuxt/img/apple-podcasts.1dd0e61.svg"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        src="https://spravlyayus.mave.digital/_nuxt/img/apple-podcasts.1dd0e61.svg"
+                        alt=""
+                      />
+                    </a>
+                    <a href="#">
+                      <img
+                        src="https://spravlyayus.mave.digital/_nuxt/img/apple-podcasts.1dd0e61.svg"
+                        alt=""
+                      />
+                    </a>
+                  </div>
                 </div>
-
+              </div>
             </div>
-            <div class="playlist-songs-container">
-                <div class="playlist-buttons">
-                    <div class="playlist-buttons-left">
-                        <div class="playlist-buttons-resume-pause">
-                            <img src="assets/Pause.svg" alt="">
-                        </div>
-                        <div class="playlist-buttons-like">
-                            <img src="assets/FiiledLike.svg" alt="" class="spotify-color">
-                        </div>
-                        <div class="playlist-buttons-download">
-                            <img src="assets/Download.svg" alt="">
-                        </div>
-                        <div class="playlist-buttons-three-dot">
-                            <img src="assets/ThreeDots.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="playlist-buttons-right">
-                        <div class="playlist-buttons-search">
-                            <img src="assets/Search.svg" alt="">
-                        </div>
-                        <div class="playlist-buttons-order">
-                            Custom Order
-                        </div>
-                    </div>
+            <div class="audio__right">
+              <div class="audio__message">
+                <a href="">Написать мне</a>
+              </div>
+              <div class="audio__tabs">
+                <div class="audio__tabs-head">
+                  <button id="tabsBtn" href="#" data-tab="#tab_1">
+                    Выпуски подкаста 8
+                  </button>
+                  <button href="#" id="tabsBtn" data-tab="#tab_2">
+                    Описание подкаста
+                  </button>
                 </div>
-                <div class="playlist-songs">
-                    <table>
-                        <tr>
-                            <th>#</th>
-                            <th>Title</th>
-                            <th>Album</th>
-                            <th>Date Added</th>
-                            <th>
-                                <img src="assets/Duration.svg" alt="">
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td class="song-title">
-                                <div class="song-image">
-                                    <img src="images/song-cover.jpeg" alt="">
-                                </div>
-                                <div class="song-name-album">
-                                    <div class="song-name">Young as the Morning old as the Sea</div>
-                                    <div class="song-artist">Passenger</div>
-                                </div>
-                            </td>
-                            <td class="song-album">Young as the Morning old as the Sea</td>
-                            <td class="song-date-added">May 31, 2022</td>
-                            <td class="song-duration">
-                                3:26
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>2</td>
-                            <td class="song-title">
-                                <div class="song-image">
-                                    <img src="images/song-cover.jpeg" alt="">
-                                </div>
-                                <div class="song-name-album">
-                                    <div class="song-name">Young as the Morning old as the Sea</div>
-                                    <div class="song-artist">Passenger</div>
-                                </div>
-                            </td>
-                            <td class="song-album">Young as the Morning old as the Sea</td>
-                            <td class="song-date-added">May 31, 2022</td>
-                            <td>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td class="song-title">
-                                <div class="song-image">
-                                    <img src="images/song-cover.jpeg" alt="">
-                                </div>
-                                <div class="song-name-album">
-                                    <div class="song-name">Young as the Morning old as the Sea</div>
-                                    <div class="song-artist">Passenger</div>
-                                </div>
-                            </td>
-                            <td class="song-album">Young as the Morning old as the Sea</td>
-                            <td class="song-date-added">May 31, 2022</td>
-                            <td>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td class="song-title">
-                                <div class="song-image">
-                                    <img src="images/song-cover.jpeg" alt="">
-                                </div>
-                                <div class="song-name-album">
-                                    <div class="song-name">Young as the Morning old as the Sea</div>
-                                    <div class="song-artist">Passenger</div>
-                                </div>
-                            </td>
-                            <td class="song-album">Young as the Morning old as the Sea</td>
-                            <td class="song-date-added">May 31, 2022</td>
-                            <td>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td class="song-title">
-                                <div class="song-image">
-                                    <img src="images/song-cover.jpeg" alt="">
-                                </div>
-                                <div class="song-name-album">
-                                    <div class="song-name">Young as the Morning old as the Sea</div>
-                                    <div class="song-artist">Passenger</div>
-                                </div>
-                            </td>
-                            <td class="song-album">Young as the Morning old as the Sea</td>
-                            <td class="song-date-added">May 31, 2022</td>
-                            <td>
-                            </td>
-                        </tr>
-                    </table>
+                <div class="audio__tabs-body">
+                  <div class="audio__first" id="tab_1">
+                    <h3 class="audio__first-title">Все выпуски</h3>
+                    <div class="audio__first-body">
+                      <div href="" id="playlist" class="audio__first-link">
+                        <button
+                          data-src="./Rick Astley - Never Gonna Give You Up.mp3"
+                          class="audio__first-btn"
+                        >
+                          <svg
+                            width="8"
+                            height="10"
+                            viewBox="0 0 8 10"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            data-v-61569820=""
+                          >
+                            <path
+                              data-v-61569820=""
+                              d="M8 5L0.5 9.33013L0.5 0.669873L8 5Z"
+                              fill="#5F80F5"
+                            ></path>
+                          </svg>
+                        </button>
+                        <div class="audio__first-box">
+                          <div class="audio__first-left">
+                            <div class="audio__first-top">
+                              <p class="audio__first-one">8 выпуск</p>
+                              <span>*</span>
+                              <p class="audio__first-two">2 декабря 2022</p>
+                            </div>
+                            <div class="audio__first-bottom">
+                              <p>У меня кризис идентичности! что делать?</p>
+                            </div>
+                          </div>
+                          <div class="audio__first-right">
+                            <span class="audio__first-two">30:21</span>
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="audio__first" id="tab_2">
+                    <p class="audio__last-text">
+                      Подкаст девочки в своих 20-х, которая разбирается с жизнью
+                      на ходу, и решила делиться этим опытом. Документируя свой
+                      путь становления в реальном времени уже несколько лет на
+                      своем канале, я решила найти еще один способ рассказывать
+                      об открытиях взросления в аудио-формате. В этом
+                      соло-подкасте я буду обсуждать взросление и становление в
+                      этом непростом мире, построение крепких отношений с собой
+                      и окружающими, и открытия простой жизни. Верю, что слушая
+                      этот подкаст, нам удастся каждый раз напоминать самим
+                      себе: "я справляюсь". Найти меня: youtube: IM maulida
+                      instagram: @im_maulida tg: IM maulida
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
+          </section>
+          <section class="player">
+            <div class="player__wrap">
+              <div class="player__content">
+                <!-- <div class="player__controls">
+                  <span class="remodel">
+                    <svg
+                      data-v-c5060176=""
+                      width="24"
+                      height="24"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        data-v-c5060176=""
+                        id="mask0_2509:6712"
+                        maskUnits="userSpaceOnUse"
+                        x="3"
+                        y="3"
+                        width="26"
+                        height="26"
+                        style="mask-type: alpha"
+                      >
+                        <path
+                          data-v-c5060176=""
+                          d="M28.25 3.375H3.25V28.375H28.25V3.375Z"
+                          fill="white"
+                        ></path>
+                        <path
+                          data-v-c5060176=""
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M27.6245 15.9678C27.6397 17.5053 27.3519 19.0307 26.7776 20.457C26.5713 20.9693 25.9888 21.2174 25.4764 21.0111C24.9641 20.8048 24.7161 20.2222 24.9224 19.7099C25.3986 18.5273 25.6372 17.2624 25.6246 15.9875C25.612 14.7127 25.3485 13.4528 24.8489 12.2798C24.3494 11.1067 23.6238 10.0436 22.7134 9.15105C21.803 8.25849 20.7258 7.55398 19.5431 7.07774C17.1546 6.11594 14.4819 6.14235 12.1129 7.15116C10.2183 7.95799 8.64199 9.34035 7.59471 11.0835H11.9166C12.4689 11.0835 12.9166 11.5312 12.9166 12.0835C12.9166 12.6357 12.4689 13.0835 11.9166 13.0835H6.00595C5.99069 13.0838 5.97539 13.0838 5.96006 13.0835H5.25C4.69771 13.0835 4.25 12.6357 4.25 12.0835V5.41679C4.25 4.86451 4.69771 4.41679 5.25 4.41679C5.80228 4.41679 6.25 4.86451 6.25 5.41679V9.47705C7.50114 7.64643 9.25739 6.19338 11.3294 5.31105C14.1864 4.09443 17.4097 4.06258 20.2902 5.22251C21.7165 5.79685 23.0157 6.6465 24.1136 7.72293C25.2115 8.79937 26.0866 10.0815 26.6891 11.4962C27.2915 12.9108 27.6093 14.4303 27.6245 15.9678Z"
+                          fill="black"
+                        ></path>
+                        <path
+                          data-v-c5060176=""
+                          d="M8.14979 27.0834H9.92713V15.6338H8.15772L5.14258 17.7603V19.5773L8.0149 17.546H8.14979V27.0834Z"
+                          fill="black"
+                        ></path>
+                        <path
+                          data-v-c5060176=""
+                          d="M16.9337 27.3611C19.3617 27.3611 21.0041 25.7345 21.0041 23.3383C21.0041 21.0531 19.4172 19.5694 17.4812 19.5694C16.3227 19.5694 15.4737 19.9582 14.95 20.6564H14.8151L15.1484 17.2128H20.409V15.6338H13.7678L13.1251 22.2592H14.7517C15.1722 21.4895 15.9736 21.0214 16.9892 21.0214C18.3381 21.0214 19.2664 21.9656 19.2664 23.3779C19.2664 24.83 18.3302 25.798 16.9416 25.798C15.6959 25.798 14.7675 25.068 14.6406 23.9572H12.9426C13.0537 25.9567 14.6565 27.3611 16.9337 27.3611Z"
+                          fill="black"
+                        ></path>
+                      </mask>
+                      <g data-v-c5060176="" mask="url(#mask0_2509:6712)">
+                        <path
+                          data-v-c5060176=""
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M27.6245 15.9678C27.6397 17.5053 27.3519 19.0307 26.7776 20.457C26.5713 20.9693 25.9888 21.2174 25.4764 21.0111C24.9641 20.8048 24.7161 20.2222 24.9224 19.7099C25.3986 18.5273 25.6372 17.2624 25.6246 15.9875C25.612 14.7127 25.3485 13.4528 24.8489 12.2798C24.3494 11.1067 23.6238 10.0436 22.7134 9.15105C21.803 8.25849 20.7258 7.55398 19.5431 7.07774C17.1546 6.11594 14.4819 6.14235 12.1129 7.15116C10.2183 7.95799 8.64199 9.34035 7.59471 11.0835H11.9166C12.4689 11.0835 12.9166 11.5312 12.9166 12.0835C12.9166 12.6357 12.4689 13.0835 11.9166 13.0835H6.00595C5.99069 13.0838 5.97539 13.0838 5.96006 13.0835H5.25C4.69771 13.0835 4.25 12.6357 4.25 12.0835V5.41679C4.25 4.86451 4.69771 4.41679 5.25 4.41679C5.80228 4.41679 6.25 4.86451 6.25 5.41679V9.47705C7.50114 7.64643 9.25739 6.19338 11.3294 5.31105C14.1864 4.09443 17.4097 4.06258 20.2902 5.22251C21.7165 5.79685 23.0157 6.6465 24.1136 7.72293C25.2115 8.79937 26.0866 10.0815 26.6891 11.4962C27.2915 12.9108 27.6093 14.4303 27.6245 15.9678Z"
+                          fill="#5F80F5"
+                        ></path>
+                        <path
+                          data-v-c5060176=""
+                          d="M8.14979 27.0834H9.92713V15.6338H8.15772L5.14258 17.7603V19.5773L8.0149 17.546H8.14979V27.0834Z"
+                          fill="#5F80F5"
+                        ></path>
+                        <path
+                          data-v-c5060176=""
+                          d="M16.9337 27.3611C19.3617 27.3611 21.0041 25.7345 21.0041 23.3383C21.0041 21.0531 19.4172 19.5694 17.4812 19.5694C16.3227 19.5694 15.4737 19.9582 14.95 20.6564H14.8151L15.1484 17.2128H20.409V15.6338H13.7678L13.1251 22.2592H14.7517C15.1722 21.4895 15.9736 21.0214 16.9892 21.0214C18.3381 21.0214 19.2664 21.9656 19.2664 23.3779C19.2664 24.83 18.3302 25.798 16.9416 25.798C15.6959 25.798 14.7675 25.068 14.6406 23.9572H12.9426C13.0537 25.9567 14.6565 27.3611 16.9337 27.3611Z"
+                          fill="#5F80F5"
+                        ></path>
+                        <path
+                          data-v-c5060176=""
+                          d="M26.7775 20.4571L26.6384 20.4011L26.7775 20.4571ZM27.6244 15.9679L27.7744 15.9664L27.6244 15.9679ZM25.4763 21.0112L25.5324 20.872L25.4763 21.0112ZM24.9223 19.71L25.0614 19.7661L24.9223 19.71ZM25.6245 15.9876L25.4745 15.9891L25.6245 15.9876ZM19.543 7.07784L19.487 7.21698L19.543 7.07784ZM12.1128 7.15126L12.0541 7.01325L12.1128 7.15126ZM7.59456 11.0836L7.46598 11.0063C7.43814 11.0526 7.43738 11.1104 7.464 11.1574C7.49062 11.2045 7.5405 11.2336 7.59456 11.2336V11.0836ZM6.0058 13.0836V12.9335L6.00234 12.9336L6.0058 13.0836ZM5.95991 13.0836L5.96338 12.9336H5.95991V13.0836ZM4.24985 12.0836H4.09985H4.24985ZM6.24985 9.47715H6.09985C6.09985 9.54293 6.14271 9.60104 6.20555 9.62046C6.2684 9.63989 6.33657 9.6161 6.37369 9.56179L6.24985 9.47715ZM11.3293 5.31115L11.388 5.44916L11.3293 5.31115ZM20.2901 5.22261L20.3461 5.08347L20.2901 5.22261ZM24.1135 7.72303L24.2185 7.61592L24.1135 7.72303ZM8.14976 27.0836H7.99976V27.2336H8.14976V27.0836ZM9.9271 27.0836V27.2336H10.0771V27.0836H9.9271ZM9.9271 15.634H10.0771V15.484H9.9271V15.634ZM8.15769 15.634V15.484H8.11012L8.07124 15.5114L8.15769 15.634ZM5.14255 17.7605L5.0561 17.6379L4.99255 17.6827V17.7605H5.14255ZM5.14255 19.5775H4.99255V19.8673L5.22916 19.7L5.14255 19.5775ZM8.01487 17.5462V17.3962H7.96719L7.92826 17.4238L8.01487 17.5462ZM8.14976 17.5462H8.29976V17.3962H8.14976V17.5462ZM14.95 20.6566V20.8066H15.025L15.07 20.7466L14.95 20.6566ZM14.8151 20.6566L14.6658 20.6421L14.6499 20.8066H14.8151V20.6566ZM15.1484 17.213V17.063H15.0122L14.9991 17.1985L15.1484 17.213ZM20.409 17.213V17.363H20.559V17.213H20.409ZM20.409 15.634H20.559V15.484H20.409V15.634ZM13.7678 15.634V15.484H13.6316L13.6185 15.6195L13.7678 15.634ZM13.1251 22.2594L12.9758 22.2449L12.9598 22.4094H13.1251V22.2594ZM14.7517 22.2594V22.4094H14.8406L14.8833 22.3313L14.7517 22.2594ZM14.6406 23.9574L14.7896 23.9403L14.7744 23.8074H14.6406V23.9574ZM12.9426 23.9574V23.8074H12.784L12.7928 23.9657L12.9426 23.9574ZM26.9166 20.5131C27.4983 19.0686 27.7898 17.5236 27.7744 15.9664L27.4744 15.9694C27.4894 17.4872 27.2053 18.9931 26.6384 20.4011L26.9166 20.5131ZM25.4203 21.1503C26.0095 21.3876 26.6794 21.1023 26.9166 20.5131L26.6384 20.4011C26.463 20.8365 25.9678 21.0474 25.5324 20.872L25.4203 21.1503ZM24.7831 19.654C24.5459 20.2431 24.8312 20.9131 25.4203 21.1503L25.5324 20.872C25.0969 20.6967 24.8861 20.2015 25.0614 19.7661L24.7831 19.654ZM25.4745 15.9891C25.4869 17.2443 25.252 18.4896 24.7831 19.654L25.0614 19.7661C25.545 18.5651 25.7873 17.2807 25.7745 15.9862L25.4745 15.9891ZM24.7108 12.3386C25.2026 13.4935 25.4621 14.7339 25.4745 15.9891L25.7745 15.9862C25.7617 14.6916 25.4941 13.4122 24.9869 12.2211L24.7108 12.3386ZM22.6083 9.25826C23.5046 10.137 24.219 11.1837 24.7108 12.3386L24.9869 12.2211C24.4796 11.03 23.7428 9.95039 22.8183 9.04404L22.6083 9.25826ZM19.487 7.21698C20.6514 7.68586 21.712 8.37949 22.6083 9.25826L22.8183 9.04404C21.8939 8.13769 20.8 7.42229 19.599 6.9387L19.487 7.21698ZM12.1716 7.28927C14.504 6.29605 17.1354 6.27005 19.487 7.21698L19.599 6.9387C17.1737 5.96204 14.4597 5.98886 12.0541 7.01325L12.1716 7.28927ZM7.72313 11.1608C8.75424 9.44463 10.3062 8.08363 12.1716 7.28927L12.0541 7.01325C10.1301 7.83255 8.52944 9.23627 7.46598 11.0063L7.72313 11.1608ZM11.9165 10.9336H7.59456V11.2336H11.9165V10.9336ZM13.0665 12.0836C13.0665 11.4484 12.5517 10.9336 11.9165 10.9336V11.2336C12.386 11.2336 12.7665 11.6141 12.7665 12.0836H13.0665ZM11.9165 13.2336C12.5517 13.2336 13.0665 12.7187 13.0665 12.0836H12.7665C12.7665 12.553 12.386 12.9336 11.9165 12.9336V13.2336ZM6.0058 13.2336H11.9165V12.9336H6.0058V13.2336ZM5.95644 13.2335C5.97408 13.2339 5.9917 13.2339 6.00927 13.2335L6.00234 12.9336C5.98938 12.9339 5.97639 12.9339 5.96337 12.9336L5.95644 13.2335ZM5.24985 13.2336H5.95991V12.9336H5.24985V13.2336ZM4.09985 12.0836C4.09985 12.7187 4.61472 13.2336 5.24985 13.2336V12.9336C4.78041 12.9336 4.39985 12.553 4.39985 12.0836H4.09985ZM4.09985 5.41689V12.0836H4.39985V5.41689H4.09985ZM5.24985 4.26689C4.61472 4.26689 4.09985 4.78177 4.09985 5.41689H4.39985C4.39985 4.94745 4.78041 4.56689 5.24985 4.56689V4.26689ZM6.39985 5.41689C6.39985 4.78177 5.88497 4.26689 5.24985 4.26689V4.56689C5.71929 4.56689 6.09985 4.94745 6.09985 5.41689H6.39985ZM6.39985 9.47715V5.41689H6.09985V9.47715H6.39985ZM11.2705 5.17314C9.17192 6.06678 7.39318 7.53844 6.12601 9.39251L6.37369 9.56179C7.60881 7.75461 9.34256 6.32018 11.388 5.44916L11.2705 5.17314ZM20.3461 5.08347C17.4287 3.90867 14.1641 3.94093 11.2705 5.17314L11.388 5.44916C14.2084 4.24812 17.3905 4.21668 20.2341 5.36175L20.3461 5.08347ZM24.2185 7.61592C23.1065 6.5257 21.7907 5.66517 20.3461 5.08347L20.2341 5.36175C21.6421 5.92874 22.9246 6.7675 24.0085 7.83014L24.2185 7.61592ZM26.827 11.4375C26.2168 10.0047 25.3305 8.70615 24.2185 7.61592L24.0085 7.83014C25.0923 8.89279 25.9563 10.1585 26.5509 11.555L26.827 11.4375ZM27.7744 15.9664C27.759 14.4092 27.4371 12.8703 26.827 11.4375L26.5509 11.555C27.1456 12.9516 27.4594 14.4516 27.4744 15.9694L27.7744 15.9664ZM8.14976 27.2336H9.9271V26.9336H8.14976V27.2336ZM10.0771 27.0836V15.634H9.7771V27.0836H10.0771ZM9.9271 15.484H8.15769V15.784H9.9271V15.484ZM8.07124 15.5114L5.0561 17.6379L5.22901 17.8831L8.24414 15.7566L8.07124 15.5114ZM4.99255 17.7605V19.5775H5.29255V17.7605H4.99255ZM5.22916 19.7L8.10148 17.6687L7.92826 17.4238L5.05595 19.455L5.22916 19.7ZM8.01487 17.6962H8.14976V17.3962H8.01487V17.6962ZM7.99976 17.5462V27.0836H8.29976V17.5462H7.99976ZM16.9337 27.5113C18.1819 27.5113 19.2391 27.0926 19.9849 26.3551C20.7307 25.6175 21.1541 24.5718 21.1541 23.3385H20.8541C20.8541 24.5014 20.4563 25.4671 19.7739 26.1418C19.0914 26.8167 18.1135 27.2113 16.9337 27.2113V27.5113ZM21.1541 23.3385C21.1541 20.9744 19.5039 19.4196 17.4812 19.4196V19.7196C19.3305 19.7196 20.8541 21.1322 20.8541 23.3385H21.1541ZM17.4812 19.4196C16.2877 19.4196 15.3886 19.8218 14.83 20.5666L15.07 20.7466C15.5588 20.0949 16.3577 19.7196 17.4812 19.7196V19.4196ZM14.95 20.5066H14.8151V20.8066H14.95V20.5066ZM14.9644 20.671L15.2977 17.2274L14.9991 17.1985L14.6658 20.6421L14.9644 20.671ZM15.1484 17.363H20.409V17.063H15.1484V17.363ZM20.559 17.213V15.634H20.259V17.213H20.559ZM20.409 15.484H13.7678V15.784H20.409V15.484ZM13.6185 15.6195L12.9758 22.2449L13.2744 22.2739L13.9171 15.6485L13.6185 15.6195ZM13.1251 22.4094H14.7517V22.1094H13.1251V22.4094ZM14.8833 22.3313C15.2749 21.6145 16.0228 21.1716 16.9892 21.1716V20.8716C15.9244 20.8716 15.0695 21.3649 14.62 22.1875L14.8833 22.3313ZM16.9892 21.1716C17.6275 21.1716 18.1565 21.3942 18.526 21.7747C18.8959 22.1555 19.1164 22.7054 19.1164 23.3781H19.4164C19.4164 22.6386 19.1728 22.0101 18.7413 21.5657C18.3094 21.121 17.6998 20.8716 16.9892 20.8716V21.1716ZM19.1164 23.3781C19.1164 24.0716 18.8934 24.6373 18.5167 25.0287C18.1404 25.4196 17.5998 25.6482 16.9416 25.6482V25.9482C17.672 25.9482 18.2938 25.6928 18.7328 25.2367C19.1713 24.7811 19.4164 24.1368 19.4164 23.3781H19.1164ZM16.9416 25.6482C15.7566 25.6482 14.9063 24.9609 14.7896 23.9403L14.4916 23.9744C14.6288 25.1755 15.6351 25.9482 16.9416 25.9482V25.6482ZM14.6406 23.8074H12.9426V24.1074H14.6406V23.8074ZM12.7928 23.9657C12.909 26.0574 14.5903 27.5113 16.9337 27.5113V27.2113C14.7226 27.2113 13.1983 25.8563 13.0924 23.9491L12.7928 23.9657Z"
+                          fill="#5F80F5"
+                        ></path>
+                      </g>
+                    </svg>
+                  </span>
+                  <button>
+                    <span><i class="fa-solid fa-play"></i></span>
+                  </button>
+                  <span class="remodel">
+                    <svg
+                      data-v-c5060176=""
+                      width="24"
+                      height="24"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        data-v-c5060176=""
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M4.25033 15.9678C4.23514 17.5053 4.52293 19.0307 5.09727 20.457C5.30357 20.9693 5.88612 21.2174 6.39842 21.0111C6.91073 20.8048 7.1588 20.2222 6.9525 19.7099C6.47627 18.5273 6.23764 17.2624 6.25024 15.9875C6.26283 14.7127 6.52641 13.4528 7.02592 12.2798C7.52543 11.1067 8.25109 10.0436 9.16147 9.15105C10.0719 8.25849 11.1491 7.55398 12.3318 7.07774C14.7202 6.11594 17.3929 6.14235 19.7619 7.15116C21.6566 7.95799 23.2329 9.34035 24.2802 11.0835H19.9582C19.4059 11.0835 18.9582 11.5312 18.9582 12.0835C18.9582 12.6357 19.4059 13.0835 19.9582 13.0835H25.8689C25.8842 13.0838 25.8995 13.0838 25.9148 13.0835H26.6249C27.1772 13.0835 27.6249 12.6357 27.6249 12.0835V5.41679C27.6249 4.86451 27.1772 4.41679 26.6249 4.41679C26.0726 4.41679 25.6249 4.86451 25.6249 5.41679V9.47705C24.3738 7.64643 22.6175 6.19338 20.5455 5.31105C17.6885 4.09443 14.4652 4.06258 11.5847 5.22251C10.1584 5.79685 8.85922 6.6465 7.7613 7.72293C6.66338 8.79937 5.78823 10.0815 5.18581 11.4962C4.5834 12.9108 4.26552 14.4303 4.25033 15.9678Z"
+                        fill="#5F80F5"
+                      ></path>
+                      <path
+                        data-v-c5060176=""
+                        d="M13.6116 22.2811H15.0477C16.4601 22.2811 17.317 22.9794 17.317 24.1061C17.317 25.2011 16.3887 25.939 15.0715 25.939C13.7465 25.939 12.8499 25.2645 12.7626 24.2092H10.8027C10.8979 26.296 12.6039 27.6608 15.0953 27.6608C17.5709 27.6608 19.4117 26.2326 19.4117 24.2568C19.4117 22.7017 18.4358 21.694 16.8806 21.4559V21.3211C18.0946 21.0037 18.9595 20.0833 18.9674 18.7026C18.9753 17.0523 17.6027 15.6399 15.1667 15.6399C12.6832 15.6399 11.1281 17.0443 11.0249 19.0676H12.9451C13.0323 17.9409 13.8099 17.3062 15.0557 17.3062C16.2697 17.3062 16.9917 18.0441 16.9917 18.9804C16.9917 20.0039 16.1824 20.718 15.0081 20.718H13.6116V22.2811Z"
+                        fill="#5F80F5"
+                      ></path>
+                      <path
+                        data-v-c5060176=""
+                        d="M25.4422 27.6608C28.1797 27.6608 29.8062 25.4391 29.8062 21.6543C29.8062 17.8536 28.1559 15.6399 25.4422 15.6399C22.7207 15.6399 21.0703 17.8536 21.0703 21.6384C21.0703 25.4391 22.6969 27.6608 25.4422 27.6608ZM25.4422 25.9628C23.9902 25.9628 23.1412 24.479 23.1412 21.6384C23.1412 18.8217 24.0061 17.3458 25.4422 17.3458C26.8784 17.3458 27.7353 18.8137 27.7353 21.6384C27.7353 24.479 26.8943 25.9628 25.4422 25.9628Z"
+                        fill="#5F80F5"
+                      ></path>
+                    </svg>
+                  </span>
+                </div> -->
+                <div class="player__info">
+                  <figure class="player__image image-wrapper">
+                    <img
+                      src="https://mavecloud.s3mts.ru/storage/podcasts/0161592b-b87e-49ab-8dbb-52cdab1518a9/images/e4f483b4-2ac7-45ba-87fe-aa24533886c1_180.jpg"
+                      alt="обложка"
+                      class="image-wrapper__image"
+                    />
+                  </figure>
+                  <div class="player__info-wrap">
+                    <p class="q-my-none text-body2 ellipsis">
+                      У меня кризис идентичности! что делать?
+                    </p>
+                    <audio src="" id="audio-player" controls></audio>
+                  </div>
+                </div>
+                <div
+                  data-v-c5060176=""
+                  class="player__close"
+                  bis_skin_checked="1"
+                >
+                  <button
+                    data-v-c5060176=""
+                    aria-label="Закрыть плеер"
+                    class="player__close-button player__button"
+                  >
+                    <svg
+                      data-v-c5060176=""
+                      width="29"
+                      height="29"
+                      viewBox="0 0 29 29"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        data-v-c5060176=""
+                        d="M10.0174 10.0173L18.267 18.2669"
+                        stroke="#5F80F5"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                      <path
+                        data-v-c5060176=""
+                        d="M10.0173 18.2668L18.2669 10.0173"
+                        stroke="#5F80F5"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
     </div>
-
-    <div class="footer-player">
-        <div class="footer-player-left">
-            <div class="footer-player-left-song">
-                <div class="footer-player-left-song-name">Young as the Morning old as the Sea</div>
-                <div class="footer-player-left-song-artist">Passenger</div>
-            </div>
-            <div class="footer-player-left-like">
-                <img src="assets/FiiledLike.svg" alt="" class="spotify-color" style="height: 18px; width: 18px;">
-            </div>
-        </div>
-        <div class="footer-player-middle">
-            <div class="footer-player-middle-buttons">
-                <img src="assets/Shuffle.svg" alt="" class="gray-filtered">
-                <img src="assets/Previous.svg" alt="" class="gray-filtered">
-                <span class="pause-button">
-                    <img src="assets/Pause.svg" alt="">
-                </span>
-                <img src="assets/Next.svg" alt="" class="gray-filtered">
-                <img src="assets/Repeat.svg" alt="" class="gray-filtered">
-            </div>
-            <div class="footer-player-middle-slider">
-                <div class="player-time">1:33</div>
-                <div class="player-slider">
-                    <input type="range" min="1" max="100" value="30">
-                </div>
-                <div class="player-time">4:34</div>
-            </div>
-        </div>
-        <div class="footer-player-right">
-            <div class="footer-player-right-buttons">
-                <img src="assets/Lyrics.svg" alt="">
-                <img src="assets/Queue.svg" class="filtered-img" alt="">
-                <img src="assets/Connect to a device.svg" class="filtered-img" alt="">
-                <img src="assets/Volume.svg" class="filtered-img" alt="">
-                <div class="player-slider" style="margin-right: 20px; width: 200px;">
-                    <input type="range" min="1" max="100" value="30" style="width:75px; position: relative; top:-5px;">
-                </div>
-                <img src="assets/Full screen.svg" class="filtered-img" alt="">
-            </div>
-        </div>
-    </div>
-
-    <script src="./index.js"></script>
-    <script src="./preload.js"></script>
-</body>
+    <script src="/js/main.js"></script>
+    <script src="/icons/all.min.js"></script>
+  </body>
 </html>
